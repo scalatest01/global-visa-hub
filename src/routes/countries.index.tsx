@@ -53,7 +53,10 @@ function CountriesPage() {
               params={{ slug: country.slug }}
               className="card-surface flex flex-col transition-colors hover:border-primary/40 hover:bg-accent/40"
             >
-              <span className="text-4xl" aria-hidden="true">
+              <span
+                aria-hidden="true"
+                className="flex h-12 w-16 items-center justify-center rounded-xl bg-muted font-display text-base font-bold tracking-wide text-primary"
+              >
                 {country.code}
               </span>
               <h2 className="mt-4 font-display text-xl font-semibold">{country.name}</h2>

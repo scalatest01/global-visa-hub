@@ -112,7 +112,10 @@ function Index() {
                 params={{ slug: country.slug }}
                 className="card-surface transition-colors hover:border-primary/40 hover:bg-accent/40"
               >
-                <span className="text-3xl" aria-hidden="true">
+                <span
+                  aria-hidden="true"
+                  className="flex h-11 w-14 items-center justify-center rounded-xl bg-muted font-display text-sm font-bold tracking-wide text-primary"
+                >
                   {country.code}
                 </span>
                 <h3 className="mt-3 font-display font-semibold">{country.name}</h3>
