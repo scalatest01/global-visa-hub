@@ -54,7 +54,7 @@ function CountriesPage() {
               className="card-surface flex flex-col transition-colors hover:border-primary/40 hover:bg-accent/40"
             >
               <span className="text-4xl" aria-hidden="true">
-                {country.flag}
+                {country.code}
               </span>
               <h2 className="mt-4 font-display text-xl font-semibold">{country.name}</h2>
               <p className="mt-1 text-sm text-primary">{country.tagline}</p>

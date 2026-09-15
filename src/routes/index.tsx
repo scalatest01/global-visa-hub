@@ -113,7 +113,7 @@ function Index() {
                 className="card-surface transition-colors hover:border-primary/40 hover:bg-accent/40"
               >
                 <span className="text-3xl" aria-hidden="true">
-                  {country.flag}
+                  {country.code}
                 </span>
                 <h3 className="mt-3 font-display font-semibold">{country.name}</h3>
                 <p className="mt-1 line-clamp-2 text-sm text-muted-foreground">

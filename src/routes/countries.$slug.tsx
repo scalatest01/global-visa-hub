@@ -53,7 +53,7 @@ function CountryDetail() {
       <section className="border-b border-border bg-muted/40">
         <div className="container-page py-14 lg:py-20">
           <span className="text-5xl" aria-hidden="true">
-            {country.flag}
+            {country.code}
           </span>
           <h1 className="mt-4 text-4xl font-bold sm:text-5xl">{country.name}</h1>
           <p className="mt-3 max-w-2xl text-lg text-muted-foreground">

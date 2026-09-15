@@ -8,8 +8,8 @@ export type VisaService = {
 
 export type Country = {
   slug: string;
+  code: string;
   name: string;
-  flag: string;
   tagline: string;
   description: string;
   highlights: string[];
@@ -19,6 +19,7 @@ export type Country = {
 export const countries: Country[] = [
   {
     slug: "poland",
+    code: "PL",
     name: "Poland",
     flag: "🇵🇱",
     tagline: "Fast-growing EU job market with accessible work permits",
@@ -34,6 +35,7 @@ export const countries: Country[] = [
   },
   {
     slug: "ukraine",
+    code: "UA",
     name: "Ukraine",
     flag: "🇺🇦",
     tagline: "Residence permits and long-term stay options",
@@ -49,6 +51,7 @@ export const countries: Country[] = [
   },
   {
     slug: "germany",
+    code: "DE",
     name: "Germany",
     flag: "🇩🇪",
     tagline: "Europe's largest economy — skilled worker routes and EU Blue Card",
@@ -64,6 +67,7 @@ export const countries: Country[] = [
   },
   {
     slug: "netherlands",
+    code: "NL",
     name: "Netherlands",
     flag: "🇳🇱",
     tagline: "Highly skilled migrant route and English-friendly workplaces",
@@ -79,6 +83,7 @@ export const countries: Country[] = [
   },
   {
     slug: "romania",
+    code: "RO",
     name: "Romania",
     flag: "🇷🇴",
     tagline: "Low-cost EU base with steady work permit approvals",
@@ -94,6 +99,7 @@ export const countries: Country[] = [
   },
   {
     slug: "bulgaria",
+    code: "BG",
     name: "Bulgaria",
     flag: "🇧🇬",
     tagline: "Business-friendly EU residence with low setup costs",
@@ -109,6 +115,7 @@ export const countries: Country[] = [
   },
   {
     slug: "serbia",
+    code: "RS",
     name: "Serbia",
     flag: "🇷🇸",
     tagline: "Flexible non-EU residence with fast processing",
@@ -124,6 +131,7 @@ export const countries: Country[] = [
   },
   {
     slug: "denmark",
+    code: "DK",
     name: "Denmark",
     flag: "🇩🇰",
     tagline: "High salaries and structured work & study schemes",
