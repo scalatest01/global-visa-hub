@@ -121,7 +121,7 @@ function CountryDetail() {
                 params={{ slug: other.slug }}
                 className="rounded-full border border-border bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent/40"
               >
-                {other.flag} {other.name}
+                {other.code} · {other.name}
               </Link>
             ))}
             <Link

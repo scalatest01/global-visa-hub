@@ -21,7 +21,6 @@ export const countries: Country[] = [
     slug: "poland",
     code: "PL",
     name: "Poland",
-    flag: "🇵🇱",
     tagline: "Fast-growing EU job market with accessible work permits",
     description:
       "Poland is one of Europe's fastest-growing economies and a top destination for workers and students. Its employer-driven work permit system makes it one of the most accessible routes into the EU, with a growing demand for skilled and seasonal workers alike.",
@@ -37,7 +36,6 @@ export const countries: Country[] = [
     slug: "ukraine",
     code: "UA",
     name: "Ukraine",
-    flag: "🇺🇦",
     tagline: "Residence permits and long-term stay options",
     description:
       "Ukraine offers a range of residence and long-stay options for those with work, family or study ties to the country. We help you navigate residence permits, extensions and the paperwork involved at every step.",
@@ -53,7 +51,6 @@ export const countries: Country[] = [
     slug: "germany",
     code: "DE",
     name: "Germany",
-    flag: "🇩🇪",
     tagline: "Europe's largest economy — skilled worker routes and EU Blue Card",
     description:
       "Germany's Skilled Immigration Act opens the door for qualified professionals, students and entrepreneurs. From the EU Blue Card to the job seeker route and vocational training visas, Germany rewards well-prepared applications.",
@@ -69,7 +66,6 @@ export const countries: Country[] = [
     slug: "netherlands",
     code: "NL",
     name: "Netherlands",
-    flag: "🇳🇱",
     tagline: "Highly skilled migrant route and English-friendly workplaces",
     description:
       "The Netherlands is ideal for international professionals and students, with a huge English-speaking job market. The highly skilled migrant programme and orientation year make it one of the smoothest EU systems when your file is prepared correctly.",
@@ -85,7 +81,6 @@ export const countries: Country[] = [
     slug: "romania",
     code: "RO",
     name: "Romania",
-    flag: "🇷🇴",
     tagline: "Low-cost EU base with steady work permit approvals",
     description:
       "Romania combines EU membership with one of the lowest costs of living in Europe. Work permits are issued steadily year-round, making it a popular first step into the EU for workers and their families.",
@@ -101,7 +96,6 @@ export const countries: Country[] = [
     slug: "bulgaria",
     code: "BG",
     name: "Bulgaria",
-    flag: "🇧🇬",
     tagline: "Business-friendly EU residence with low setup costs",
     description:
       "Bulgaria is one of the most affordable ways to establish EU residence — through employment, company registration or study. Its flat tax and low company setup costs make it attractive for entrepreneurs.",
@@ -117,7 +111,6 @@ export const countries: Country[] = [
     slug: "serbia",
     code: "RS",
     name: "Serbia",
-    flag: "🇷🇸",
     tagline: "Flexible non-EU residence with fast processing",
     description:
       "Serbia offers some of the most flexible residence options in Europe without EU-level quotas. Ideal for freelancers, company owners and remote workers who want a European base with quick approvals.",
@@ -133,7 +126,6 @@ export const countries: Country[] = [
     slug: "denmark",
     code: "DK",
     name: "Denmark",
-    flag: "🇩🇰",
     tagline: "High salaries and structured work & study schemes",
     description:
       "Denmark's Positive List and Pay Limit Scheme give clear, rules-based paths for skilled workers. Combined with top-ranked universities and strong workers' rights, it's a premium destination for those who qualify.",
